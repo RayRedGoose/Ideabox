@@ -1,0 +1,17 @@
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: search;
+  margin-left: 140px;
+  padding: 20px;
+  input {
+    border-bottom: 2px solid #FF9F33;
+    border-bottom-right-radius: 0;
+    margin-right: -5px;
+    padding: 0.46em;
+    width: 60%;
+  }
+  button {
+    height: fit-content;
+  }
+}

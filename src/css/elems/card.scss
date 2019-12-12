@@ -1,0 +1,67 @@
+.idea-card {
+  display: inline-block;
+  border-top: 5px solid #ff9f31;
+  box-shadow: 0 0 2px 0 #ff9f31;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 31%; height: fit-content;
+  overflow: hidden;
+  header,
+  footer {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    p {
+      margin-left: 10px;
+    }
+  }
+  header {
+    justify-content: space-between;
+  }
+  footer {
+    justify-content: center;
+  }
+  main {
+    padding: 20px;
+    min-height: 100px;
+    h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+  }
+  img {
+    cursor: pointer;
+    width: 30px;
+    &.delete {
+      width: 25px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+  section {
+    padding: 20px;
+    text-transform: uppercase;
+    .comment {
+      font-style: italic;
+      text-transform: none;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.great {
+  border-top: 5px solid #d54746;
+  box-shadow: 0 0 2px 0 #d54746;
+}
+
+.idea-card_comments {
+  display: none;
+}

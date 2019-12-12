@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>IdeaBOX</title>
+  </head>
+  <body>
+    <main class="content">
+      <header>
+        <form class="search-form" action="index.html" method="post">
+          <input type="text" class="input search-input" placeholder="Search">
+          <button type="button" class="btn search-btn">Search</button>
+        </form>
+      </header>
+      <aside class="side-menu">
+        <h1>IdeaBOX</h1>
+        <form class="new-idea-form" action="index.html" method="post">
+          <h2>Add new idea</h2>
+          <p class="error-ntf">Please enter correct data!</p>
+          <input type="text" class="input title-input" placeholder="Enter title">
+          <textarea rows="3" cols="40" class="input desc-input" placeholder="Enter description"></textarea>
+          <button type="button" class="btn add-btn">Add new idea</button>
+        </form>
+        <section>
+          <h2>Filter great ideas</h2>
+          <button type="button" name="filter" class="filter-btn" disabled>Show great ideas</button>
+          <button type="button" name="show-all" class="show-all-btn" disabled>Show all ideas</button>
+        </section>
+      </aside>
+      <main class="board"></main>
+    </main>
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+</html>
